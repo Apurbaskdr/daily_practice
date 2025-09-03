@@ -1,2 +1,2 @@
-print ("Hello World")
-print ("Yes")
+s='aaa'
+p='a'
