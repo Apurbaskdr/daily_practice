@@ -1,1 +1,2 @@
-print ("Hello World")
+s='aaa'
+p='a'
