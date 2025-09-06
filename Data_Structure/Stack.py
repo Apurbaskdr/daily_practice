@@ -1,10 +1,11 @@
-import Node
+from node import Node
 
 class Stack:
-  def __init__(self, limit=1000):
+  def __init__(self, name):
     self.top_item = None
     self.size = 0
-    self.limit = limit
+    self.limit = 1000
+    self.name=name
   
   def push(self, value):
     if self.has_space():
@@ -36,7 +37,22 @@ class Stack:
   def is_empty(self):
     return self.size == 0
   
-# Defining an empty pizza stack
+  def get_name(self):
+    return self.name
+  
+  def get_size(self):
+    return self.size
+  
+  def print_items(self):
+    pointer = self.top_item
+    print_list = []
+    while(pointer):
+      print_list.append(pointer.get_value())
+      pointer = pointer.get_next_node()
+    print_list.reverse()
+    print("{0} Stack: {1}".format(self.get_name(), print_list))
+  
+'''# Defining an empty pizza stack
 pizza_stack = Stack(6)
 # Adding pizzas as they are ready until we have 
 pizza_stack.push("pizza #1")
@@ -59,4 +75,4 @@ pizza_stack.pop()
 pizza_stack.pop()
 
 # Uncomment the pop() statement below:
-pizza_stack.pop()
+pizza_stack.pop()'''

@@ -18,9 +18,9 @@ class Node:
 
 
 
-a=Node(9)
+'''a=Node(9)
 b=Node(10)
 res1=Node.get_value(a)
 res2=Node.get_value(b)
 res3=Node.set_next_node(a,b)
-print(res1,res2,res3)
+print(res1,res2,res3)'''
