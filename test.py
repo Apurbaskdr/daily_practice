@@ -1,2 +1,5 @@
-for i in range(3,0,-1):
-    print (i)
+key='Apurba'
+key_b=key.encode()
+print (key_b)
+hash_code=sum(key_b)
+print (hash_code)
