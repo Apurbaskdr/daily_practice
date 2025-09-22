@@ -21,4 +21,4 @@ class Node:
         return self.value
     
 class DLL:
-    def __init__(self,value)
+    def __init__(self,value):
