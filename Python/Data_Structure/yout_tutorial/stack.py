@@ -24,5 +24,5 @@ class stack:
             if self.head.next == None:
                 self.head=None
             else:
+                self.head=node_to_remove.next
                 
-        
