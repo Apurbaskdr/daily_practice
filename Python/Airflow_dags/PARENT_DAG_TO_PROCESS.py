@@ -18,7 +18,7 @@ trigger_workflow='CHILD_DAG_TO_PROCESS'
 
 args={
     'owner':'Apurba',
-    'start_date':datetime(2022,09,22)
+    'start_date':datetime(2022,9,22)
 }
 
 
@@ -31,10 +31,11 @@ with DAG(
 ) as dag:
     file_check= PythonOperator(
         task_id="file_check",
+        python_callable= file_check,
         provide_context=True,
         dag=dag,
         do_xcom_push=True,
-        ok_kwargs={'file_prefix':file_prefix, 'file_extension':file_prefix, 'input_s3_loc':s3_path}
+        op_kwargs={'file_prefix':file_prefix, 'file_extension':file_prefix, 'input_s3_loc':s3_path}
     )
     
     trigger_ingestion_dag=PythonOperator(
