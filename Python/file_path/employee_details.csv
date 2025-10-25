@@ -1,0 +1,101 @@
+Employee_ID,Name,Age,Gender,Department,Position,Salary,Joining_Date,City,Email
+E1000,Randy Smith,53,Female,Finance,Analyst,149045,2021-09-02,Jamesstad,brad95@beard.com
+E1001,Jesse Black,25,Male,Marketing,Executive,95336,2024-05-20,Roberthaven,fibarra@evans.biz
+E1002,Cynthia Moore,22,Male,IT,Analyst,71956,2016-08-29,Mistyborough,bryanyoung@gmail.com
+E1003,Kimberly Gay MD,35,Female,Marketing,Manager,123645,2017-04-23,West Amyfort,tuckergerald@yahoo.com
+E1004,Heather Smith,52,Male,Sales,Team Lead,121224,2017-01-14,South Darlene,perryemily@yahoo.com
+E1005,Linda Cooper,26,Male,Marketing,Analyst,116289,2022-10-08,Dillonport,sanchezemma@brooks-glenn.com
+E1006,Kelsey Lozano,56,Male,HR,Manager,82994,2016-02-23,North Michealchester,chale@hotmail.com
+E1007,Natasha Delacruz,45,Male,Operations,Manager,49189,2025-04-24,South Meghan,beanrebecca@lynn.info
+E1008,Laura Johnson,40,Female,Marketing,Consultant,55241,2022-01-15,Aguirrehaven,mcook@salazar-collins.net
+E1009,Michael Scott,24,Male,Sales,Manager,56215,2016-08-16,West Tanya,emily44@weber-keller.com
+E1010,Daniel Stevens,59,Male,IT,Consultant,86685,2017-05-22,New Derekside,stacystone@thomas.biz
+E1011,Joshua Mendez,29,Male,Finance,Team Lead,121615,2023-10-31,Gregoryton,nknight@wood-shaffer.info
+E1012,Austin Cantu,24,Male,Marketing,Consultant,35803,2020-10-22,North Theodore,martinalexander@gmail.com
+E1013,Leah Spencer,56,Female,Marketing,Team Lead,138546,2016-02-13,Clarkburgh,lisa31@campbell.com
+E1014,Thomas Anderson,25,Male,Operations,Manager,57380,2019-08-15,Blairside,williampeters@yahoo.com
+E1015,Paul Smith,40,Male,Operations,Analyst,113139,2018-03-10,North Chelseaview,rebecca04@yahoo.com
+E1016,Ryan King,39,Male,Operations,Consultant,113401,2021-08-23,Christopherberg,gainessabrina@ramos.com
+E1017,Steven Gross,56,Male,Finance,Team Lead,39706,2019-03-26,Davisberg,dgriffin@durham.org
+E1018,Gregory Hunter,24,Female,Sales,Senior Developer,84044,2016-03-11,Youngport,zmitchell@gmail.com
+E1019,Patrick Wood,46,Female,IT,Manager,76156,2023-12-17,Williamfort,greendonald@hotmail.com
+E1020,Seth Bryant,51,Female,HR,Executive,140064,2025-09-04,Josephview,sandra13@gmail.com
+E1021,Walter Zimmerman,57,Male,Operations,Manager,59676,2018-09-22,North Saramouth,aaron34@payne.com
+E1022,Emily Williamson,54,Male,IT,Executive,40112,2022-09-17,Schmidtchester,cartercraig@barrett.com
+E1023,Thomas Meyer,24,Female,Finance,Consultant,76439,2017-01-21,West Christopher,steven71@cantu.net
+E1024,Joshua Lutz,57,Male,HR,Senior Developer,39417,2025-06-26,Tateview,sharvey@wilson.org
+E1025,Michael Erickson,24,Male,Finance,Consultant,64495,2021-10-24,West Jonathanfort,jamesbutler@yahoo.com
+E1026,Megan Martin,47,Male,Marketing,Executive,126155,2024-04-19,Anthonyborough,ismith@hunter-west.net
+E1027,David Vega,50,Female,HR,Executive,64767,2018-10-02,Paulatown,fguzman@lopez.org
+E1028,Gerald Thompson,48,Male,HR,Analyst,74092,2018-12-22,East Tyroneside,chad61@walker.com
+E1029,Rebecca Hull,55,Male,HR,Executive,75205,2015-11-13,Reyesland,yvonneflores@edwards.com
+E1030,Todd Cox,49,Male,IT,Senior Developer,144439,2018-09-01,East Barryview,maria20@yahoo.com
+E1031,Amanda Montgomery,26,Female,Sales,Senior Developer,47614,2018-07-23,Lake Ashleyland,zhuynh@thompson-ramos.org
+E1032,Rebecca Whitehead,47,Male,Operations,Analyst,129091,2016-06-18,Lake Joshuabury,joshuadavis@gmail.com
+E1033,Leah Farmer,28,Female,Sales,Manager,43032,2024-04-18,North Richard,danielleritter@thomas.com
+E1034,Anthony Reid,50,Female,Finance,Team Lead,73898,2016-02-03,Davisfurt,nicholas75@hotmail.com
+E1035,Kathy Pierce PhD,50,Female,IT,Analyst,114533,2022-04-04,Reedmouth,victoria39@yahoo.com
+E1036,Lindsey Miller,32,Male,Sales,Senior Developer,36947,2022-10-27,Port Donaldland,zsmith@riggs.biz
+E1037,Samantha Beard,38,Female,IT,Manager,149474,2015-11-23,West Brandonstad,zjones@gmail.com
+E1038,Kenneth Odonnell,53,Male,Marketing,Consultant,78214,2021-03-27,South Heather,jenniferoliver@bass-becker.com
+E1039,John Williams,42,Male,Finance,Senior Developer,100695,2020-08-04,Barryside,colescott@harris.com
+E1040,Ernest Sanford,31,Male,IT,Senior Developer,97971,2016-10-06,Rhodesstad,ashleykane@gmail.com
+E1041,Becky Zimmerman,28,Female,Finance,Manager,85850,2018-02-07,Nguyenbury,adamscynthia@drake.biz
+E1042,Melissa Martinez,47,Female,Sales,Manager,149845,2018-01-24,Port Nathaniel,robert21@gmail.com
+E1043,April Henderson,55,Female,Finance,Manager,88131,2017-09-07,Codystad,kathy82@hotmail.com
+E1044,Rachael Walters,57,Male,HR,Consultant,67224,2017-04-23,Morganberg,williamwalker@yahoo.com
+E1045,Ellen Brown,48,Male,HR,Analyst,68713,2019-08-20,Ingramborough,tiffanydavila@hotmail.com
+E1046,Justin Barber,54,Male,HR,Team Lead,47929,2023-01-15,East Tiffanystad,ijimenez@dawson.biz
+E1047,Susan Martinez,23,Female,Operations,Executive,86349,2020-04-06,South Thomasborough,michael03@harrison.com
+E1048,Sherry Smith,58,Male,Marketing,Executive,74119,2020-09-09,Amandahaven,simsgeorge@hotmail.com
+E1049,Karen Nguyen,48,Male,HR,Team Lead,87474,2022-08-30,Griffinhaven,leecollier@yahoo.com
+E1050,Calvin Rodgers,42,Male,Operations,Executive,37628,2019-01-10,Jenniferview,jillmitchell@gmail.com
+E1051,Sydney Collins,49,Male,Operations,Team Lead,116517,2020-07-05,South Ryan,ngutierrez@yahoo.com
+E1052,Jeanette Todd,46,Female,IT,Senior Developer,97533,2023-06-25,Jonton,xjohnson@hall-deleon.com
+E1053,Danielle Hanson,35,Female,Finance,Senior Developer,77065,2024-05-22,Hardinchester,dsanford@sellers-collins.com
+E1054,Mackenzie Becker,38,Male,HR,Manager,112253,2023-04-25,Jacksonstad,lopezjohn@hotmail.com
+E1055,Alexander Brown,49,Male,Marketing,Senior Developer,51794,2025-05-02,North Robert,xboyd@gmail.com
+E1056,Hannah Jones,56,Male,Sales,Analyst,132177,2016-01-01,West Josephtown,clifford90@charles.org
+E1057,Michelle Parsons,25,Male,Operations,Consultant,124891,2019-11-06,Rileyhaven,jamesglover@beard.com
+E1058,Hector Gill,26,Female,Marketing,Senior Developer,57223,2025-02-13,East Robertshire,wallacesteven@gmail.com
+E1059,Julia Conley,37,Female,HR,Analyst,54822,2020-06-03,South Jennifer,william04@davis-glover.biz
+E1060,Michaela Jordan,26,Female,IT,Manager,106370,2020-03-09,Shaneborough,juliacole@hotmail.com
+E1061,Jesse Hudson,49,Male,Operations,Team Lead,56338,2019-01-04,Kristinfurt,ellistanya@bennett.com
+E1062,Linda Johnson,22,Female,HR,Manager,133539,2022-09-08,West Brandonmouth,franciscourtney@phelps-martinez.com
+E1063,Rebecca Sanders,46,Female,Operations,Senior Developer,129578,2024-04-11,Monicaland,joseph41@mclaughlin-ayers.biz
+E1064,Megan Parker MD,48,Male,IT,Team Lead,87128,2025-06-17,East Johnside,justinchang@johnson.biz
+E1065,Kaitlin Bowman,41,Male,Finance,Consultant,102024,2022-04-18,Tanyaborough,wwilson@hotmail.com
+E1066,Eric Bishop,25,Male,Sales,Manager,60444,2016-10-11,West Lauraview,aliciabrooks@morris-rodgers.com
+E1067,William Hall,44,Male,Sales,Consultant,61628,2017-12-25,Amandahaven,gabriella34@hotmail.com
+E1068,Mitchell Morris,35,Female,HR,Team Lead,75531,2025-03-15,Port Wendymouth,colejulie@vance.com
+E1069,Kathleen Rowland,24,Male,HR,Team Lead,76810,2024-02-07,Turnerview,melissabrewer@morris.com
+E1070,Angela Neal,42,Female,Finance,Analyst,125713,2024-02-07,New Angela,olsonmeghan@hotmail.com
+E1071,Angela Simon,25,Male,Finance,Senior Developer,64002,2016-11-03,Johnfort,patricia48@hotmail.com
+E1072,Tony Davis,29,Male,HR,Executive,118561,2016-02-06,Spencestad,noconnor@sandoval-lane.biz
+E1073,Carla Barrett,48,Female,Marketing,Manager,143887,2021-05-23,Annetteburgh,otucker@hotmail.com
+E1074,Daniel Moreno,34,Female,Marketing,Consultant,116130,2025-07-01,South Daltonside,watkinsjoshua@thompson-warner.com
+E1075,Jennifer Phillips,22,Male,Operations,Consultant,72633,2022-05-08,West Christianfurt,whitney35@mcmillan-ponce.net
+E1076,Mario Jordan,55,Female,Finance,Senior Developer,104867,2018-08-07,Mooreberg,jennarivera@cervantes.com
+E1077,Robert Jacobs,32,Male,Sales,Team Lead,72961,2021-09-07,Richfort,smithmolly@combs.com
+E1078,Frank Garcia,41,Male,Marketing,Consultant,52120,2019-04-20,West Eric,barrypena@sanchez.com
+E1079,Aaron Green,40,Female,HR,Senior Developer,140925,2023-11-10,Christopherbury,mmiller@wilcox-kramer.com
+E1080,Steven Osborn,30,Female,IT,Senior Developer,136393,2025-09-08,Nicholsberg,allengreer@clark-gardner.com
+E1081,Amber Austin,57,Male,Marketing,Executive,145763,2021-04-12,East Kristyhaven,amandathomas@yahoo.com
+E1082,Spencer Mcintosh,36,Male,HR,Executive,104569,2018-10-29,Farmermouth,hoffmankyle@yahoo.com
+E1083,Nathan Nelson,41,Male,Finance,Manager,81244,2025-03-27,North Sheriburgh,suzanne73@holloway.org
+E1084,Michael Winters,52,Female,Operations,Manager,142158,2021-08-23,West Franciscoport,floresbrooke@hotmail.com
+E1085,Marie Morris,54,Female,IT,Senior Developer,133910,2024-12-08,Stevenville,jvaughan@nguyen.com
+E1086,Alexis Osborne,25,Male,Operations,Consultant,109568,2018-08-03,Kristenbury,echristensen@martin.net
+E1087,Hailey Richardson,46,Male,Sales,Team Lead,87625,2022-11-27,Haleyside,lisa48@miller-allen.com
+E1088,Kelly Hartman,41,Female,IT,Manager,88854,2017-10-18,Lauraborough,grossdonna@thomas.info
+E1089,David Franklin,59,Female,Sales,Executive,62130,2015-12-11,Mathisfort,wwagner@foster.com
+E1090,Micheal Medina,47,Male,Finance,Manager,131996,2019-12-09,North Aprilland,christinemiller@hotmail.com
+E1091,Thomas Watkins,52,Male,Finance,Analyst,33111,2019-06-14,New Thomasstad,qcampbell@gmail.com
+E1092,David Velez,26,Male,Sales,Consultant,51453,2023-03-17,North Daniel,reginald23@padilla-roberts.info
+E1093,Karen Castillo,28,Male,IT,Consultant,95670,2025-07-16,South Marie,powersjames@johnson.com
+E1094,Sarah Waters,26,Female,Operations,Senior Developer,137090,2018-11-07,Lake Patrick,ubush@hardin-medina.com
+E1095,Nicole Gutierrez,40,Female,Sales,Analyst,94844,2024-11-14,New Jimmyfurt,rsmith@hotmail.com
+E1096,Michelle Lloyd,41,Male,Operations,Senior Developer,97684,2024-04-10,East Jaredside,dylanjenkins@martin.com
+E1097,Terrence Kelley,48,Male,HR,Team Lead,143198,2020-02-17,New Jacquelinefurt,johnsonfernando@hotmail.com
+E1098,Karen Wheeler,36,Female,IT,Manager,124684,2025-09-13,West Casey,jonesjohn@yahoo.com
+E1099,William Espinoza,53,Male,IT,Executive,107583,2016-06-08,Sullivanshire,jerrymcdonald@bryant.com
