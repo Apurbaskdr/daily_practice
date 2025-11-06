@@ -23,7 +23,7 @@ trigger_workflow='ING_ANAPLAN_FCT_FP_SAP_ACTUAL'
 
 args={
     'owner':'airflow',
-    'start_date':datetime(2022,01,01),
+    'start_date':datetime(2022,1,1),
     'on_failure_callback':audit_logs
 }
 
