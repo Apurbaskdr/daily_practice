@@ -1,5 +1,6 @@
 from airflow.model import Variable
 
 A_NAMESPACE={
-    "INPUT_S3_LOCATION" : Variable.get('INPUT_S3_LOCATION')
+    "INPUT_S3_LOCATION" : Variable.get('INPUT_S3_LOCATION'),
+    "DESTINATION_S3_LOCATION" : Variable.get('DESTINATION_S3_LOCATION')
 }

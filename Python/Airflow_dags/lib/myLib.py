@@ -3,6 +3,7 @@ import logging
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from subprocess import PIPE, Popen
 import re
+from namespace.a_namespace import *
 
 
 def get_file_list(input_s3_loc):
@@ -50,4 +51,7 @@ def trigger_ingestion_dag(raw_table,trusted_table,object_name,trigger_workflow,f
     except Exception as e:
         logging.info("File Fetched with error: "+ str(e))
         raise e
-            
+
+
+    
+

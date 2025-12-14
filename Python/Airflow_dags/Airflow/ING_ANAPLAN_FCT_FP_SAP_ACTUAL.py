@@ -3,6 +3,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator, BranchPythonOperator
 from airflow.contrib.operators.snowflake_operator import SnowflakeOperator
 import logging
+from lib.myLib_dbtCloud import *
 
 
 
@@ -53,3 +54,28 @@ def get_raw_count_load_table(dag_run=None,**context):
     dbt_args=["dbt test -s source:%s.%s" %(raw_db,raw_table), "dbt build --exclude resource_type:test --vars '{\"FILENAME\": \"%s\", \"FILE_TIME_STAMP\": \"%s\"}' -s %s" %(filename,timestamp,trusted_table) ]
     
     exec_status, run_job=call_dbt_job_branch(dbt_args, context, dag)
+    if exec_status != 'success':
+        run_id=run_job.run_id
+        hook=DbtCloudHook('dbtcloud_conn_anaplan')
+        runinfo=hook.get_job_run(run_id, include_related=["run_steps"])
+        data=runinfo.json()
+        run_steps=data['data']['run_steps']
+        for i in exec_status:
+            print (i['name'])
+            print(i['logs'])
+            print(i['status_humnized'])
+            print ('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+        if 'Failure in test source_raw_count' not in str(data):
+            raise Exception("Something other than row count check failed")
+        else:
+            print("row count check failed")
+            return "archive_file"
+    else:
+        return "upload_to_s3"
+    
+upload_to_s3=PythonOperator(
+    task_id="upload_to_s3",
+    python_callable=upload_to_s3, 
+    op_kwargs={'object_name':"{{ti.xcom_pull(key='TRUSTED_TABLE')}}"},
+    provide_context=True, dag=dag
+)
